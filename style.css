@@ -22,9 +22,13 @@ main { flex:1; width:100%; display:flex; align-items:center; justify-content:cen
 
 .right { width:40%; background:#fff; padding:2rem; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.1); }
 form { display:flex; flex-direction:column; }
-input {
+p {
   padding:0.75rem; font-size:1rem; margin-bottom:0.8rem;
   border:1px solid #ddd; border-radius:6px;
+  color: #8e8e8e;
+}
+p:hover{
+  cursor: text;
 }
 .login-btn {
   background:#1877f2; color:#fff; border:none;
@@ -50,5 +54,5 @@ footer a { color:#737373; text-decoration:none; }
 }
 @media (max-width:480px) {
   .left h1 { font-size:3rem; }
-  input, .login-btn, .signup-btn { font-size:1rem; }
+  p, .login-btn, .signup-btn { font-size:1rem; }
 }
